@@ -1,0 +1,28 @@
+
+html, body {
+    height: 100%;
+    margin: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+
+.border-box {
+    border: 5px solid ; /* Black border */
+    padding: 20px; /* Space inside the box */
+    width: 500px; /* Width of the box */
+    height: 600px; /* Height of the box */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #6dabe8; /* White background */
+}
+.border-box img {
+    display: block; /* Removes the inline space under the image */
+    max-width: 75%; /* Ensures image fits within the border-box */
+    border-radius: 10px;
+     /* Slightly rounded corners for the image */
+     justify-content: center;
+}
